@@ -1,0 +1,26 @@
+{
+  "name": "usergraphql",
+  "version": "0.1.0",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "12.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd client && npm start\" \"cd server && npm start\"",
+    "build": "concurrently \"cd client && npm run build\" \"cd server && npm run build\"",
+    "clean": "concurrently \"rimraf node_modules yarn.lock package-lock.json\" \"cd client && rimraf node_modules build yarn.lock package-lock.json\" \"cd server && rimraf node_modules build yarn.lock package-lock.json\"",
+    "heroku-postbuild": "npm run build",
+    "install": "(cd client && npm install) && (cd server && npm install)"
+  },
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "rimraf": "^2.6.2"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
