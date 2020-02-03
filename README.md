@@ -1,4 +1,17 @@
-# node-js-getting-started
+# Employee Management App
+
+## The Problem
+
+Application that allows users to:
+
+- Create employee records that include **first name**, **last name**, **email address**, and **department**.
+- Read said record(s).
+- Update record(s).
+- Delete record(s).
+
+## Demo
+
+[Live Demo](https://nodereactgraphql.herokuapp.com/)
 
 A barebones Node.js app using [Express 4](http://expressjs.com/).
 
@@ -24,6 +37,7 @@ $ heroku create
 $ git push heroku master
 $ heroku open
 ```
+
 or
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
