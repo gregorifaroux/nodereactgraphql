@@ -1,4 +1,5 @@
 import dotenv from 'dotenv';
+import http from 'http';
 import https from 'https';
 import fs from 'fs';
 import { ApolloServer } from 'apollo-server-express';
@@ -49,7 +50,7 @@ const options = {
   requestCert: false,
   rejectUnauthorized: false,
 };
-const server = https.createServer(options, app);
+const server = http.createServer(options, app);
 
 server.listen(port, () => {
   logger.info(`🚀 Server listening on port  ${server.address().port}`);
