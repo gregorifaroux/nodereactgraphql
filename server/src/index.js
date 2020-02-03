@@ -42,7 +42,7 @@ apollo.applyMiddleware({
 });
 
 // https
-const port = process.env.PORT || 443;
+const port = process.env.PORT || 5000;
 const options = {
   key: fs.readFileSync('./certs/key.pem'),
   cert: fs.readFileSync('./certs/certificate.pem'),
