@@ -34,7 +34,6 @@ export const UserSchema = new Schema(
     },
   },
   {
-    capped: { size: 1024, max: 50, autoIndexId: true },
     collection: 'users',
   },
 );
