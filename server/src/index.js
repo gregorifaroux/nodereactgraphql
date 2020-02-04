@@ -1,7 +1,5 @@
 import dotenv from 'dotenv';
 import http from 'http';
-import https from 'https';
-import fs from 'fs';
 import { ApolloServer } from 'apollo-server-express';
 import depthLimit from 'graphql-depth-limit';
 import { logger } from './logger';
@@ -44,13 +42,7 @@ apollo.applyMiddleware({
 
 // https
 const port = process.env.PORT || 5000;
-const options = {
-  key: fs.readFileSync('./certs/key.pem'),
-  cert: fs.readFileSync('./certs/certificate.pem'),
-  requestCert: false,
-  rejectUnauthorized: false,
-};
-const server = http.createServer(options, app);
+const server = http.createServer({}, app);
 
 server.listen(port, () => {
   logger.info(`🚀 Server listening on port  ${server.address().port}`);

@@ -19,7 +19,7 @@ const appoloClient = new ApolloClient({
   uri:
     process.env.NODE_ENV === "production"
       ? `${window.location.protocol}//${window.location.host}/`
-      : "https://localhost/"
+      : "http://localhost:5000/"
 });
 
 function App() {

@@ -25,7 +25,7 @@ $ npm install
 $ npm start
 ```
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
+Your app should now be running on [localhost:3000](http://localhost:3000/).
 
 ## Deploying to Heroku
 
@@ -38,6 +38,18 @@ $ heroku open
 or
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
+## Running Production Locally
+
+Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
+
+```sh
+$ git clone https://github.com/gregorifaroux/nodereactgraphql.git # or clone your own fork
+$ cd nodereactgraphql
+$ npm install
+$ npm run build
+$ npm run start:prod
+```
 
 ## Tech/framework used
 

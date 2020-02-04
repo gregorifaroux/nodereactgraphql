@@ -342,3 +342,45 @@
 {"message":"/logo192.png","level":"info","service":"express-server"}
 {"message":"::1 - - [03/Feb/2020:20:44:35 +0000] \"GET /logo192.png HTTP/1.1\" 200 5347 \"https://localhost/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36\"\n","level":"info","service":"express-server"}
 {"message":"::1 - - [03/Feb/2020:20:44:35 +0000] \"POST / HTTP/1.1\" 200 460 \"https://localhost/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36\"\n","level":"info","service":"express-server"}
+{"message":"Db connected successfully","level":"info","service":"express-server"}
+{"message":"🚀 Server listening on port  443","level":"info","service":"express-server"}
+{"message":"Db connected successfully","level":"info","service":"express-server"}
+{"message":"🚀 Server listening on port  5000","level":"info","service":"express-server"}
+{"message":"/","level":"info","service":"express-server"}
+{"message":"::1 - - [04/Feb/2020:01:49:12 +0000] \"OPTIONS / HTTP/1.1\" 204 0 \"http://localhost:3000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36\"\n","level":"info","service":"express-server"}
+{"message":"/","level":"info","service":"express-server"}
+{"message":"::1 - - [04/Feb/2020:01:49:12 +0000] \"POST / HTTP/1.1\" 200 460 \"http://localhost:3000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36\"\n","level":"info","service":"express-server"}
+{"message":"Db connected successfully","level":"info","service":"express-server"}
+{"message":"🚀 Server listening on port  5000","level":"info","service":"express-server"}
+{"message":"/","level":"info","service":"express-server"}
+{"message":"::1 - - [04/Feb/2020:01:53:20 +0000] \"GET / HTTP/1.1\" 200 2290 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36\"\n","level":"info","service":"express-server"}
+{"message":"/static/css/2.25440561.chunk.css","level":"info","service":"express-server"}
+{"message":"/static/js/2.ee1b0fd7.chunk.js","level":"info","service":"express-server"}
+{"message":"/static/js/main.643413be.chunk.js","level":"info","service":"express-server"}
+{"message":"/static/css/main.922b0b9a.chunk.css","level":"info","service":"express-server"}
+{"message":"::1 - - [04/Feb/2020:01:53:21 +0000] \"GET /static/css/2.25440561.chunk.css HTTP/1.1\" 200 169239 \"http://localhost:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36\"\n","level":"info","service":"express-server"}
+{"message":"::1 - - [04/Feb/2020:01:53:21 +0000] \"GET /static/js/main.643413be.chunk.js HTTP/1.1\" 200 12894 \"http://localhost:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36\"\n","level":"info","service":"express-server"}
+{"message":"::1 - - [04/Feb/2020:01:53:21 +0000] \"GET /static/css/main.922b0b9a.chunk.css HTTP/1.1\" 200 1407 \"http://localhost:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36\"\n","level":"info","service":"express-server"}
+{"message":"::1 - - [04/Feb/2020:01:53:21 +0000] \"GET /static/js/2.ee1b0fd7.chunk.js HTTP/1.1\" 200 612594 \"http://localhost:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36\"\n","level":"info","service":"express-server"}
+{"message":"/static/css/2.25440561.chunk.css.map","level":"info","service":"express-server"}
+{"message":"/static/css/main.922b0b9a.chunk.css.map","level":"info","service":"express-server"}
+{"message":"::1 - - [04/Feb/2020:01:53:21 +0000] \"GET /static/css/main.922b0b9a.chunk.css.map HTTP/1.1\" 200 2258 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36\"\n","level":"info","service":"express-server"}
+{"message":"::1 - - [04/Feb/2020:01:53:21 +0000] \"GET /static/css/2.25440561.chunk.css.map HTTP/1.1\" 200 644511 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36\"\n","level":"info","service":"express-server"}
+{"message":"/","level":"info","service":"express-server"}
+{"message":"/static/js/2.ee1b0fd7.chunk.js.map","level":"info","service":"express-server"}
+{"message":"/static/js/main.643413be.chunk.js.map","level":"info","service":"express-server"}
+{"message":"::1 - - [04/Feb/2020:01:53:21 +0000] \"GET /static/js/main.643413be.chunk.js.map HTTP/1.1\" 200 37324 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36\"\n","level":"info","service":"express-server"}
+{"message":"/manifest.json","level":"info","service":"express-server"}
+{"message":"::1 - - [04/Feb/2020:01:53:21 +0000] \"GET /manifest.json HTTP/1.1\" 200 492 \"http://localhost:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36\"\n","level":"info","service":"express-server"}
+{"message":"/logo192.png","level":"info","service":"express-server"}
+{"message":"::1 - - [04/Feb/2020:01:53:21 +0000] \"GET /logo192.png HTTP/1.1\" 200 5347 \"http://localhost:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36\"\n","level":"info","service":"express-server"}
+{"message":"::1 - - [04/Feb/2020:01:53:21 +0000] \"GET /static/js/2.ee1b0fd7.chunk.js.map HTTP/1.1\" 200 3633357 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36\"\n","level":"info","service":"express-server"}
+{"message":"::1 - - [04/Feb/2020:01:53:21 +0000] \"POST / HTTP/1.1\" 200 460 \"http://localhost:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36\"\n","level":"info","service":"express-server"}
+{"message":"/","level":"info","service":"express-server"}
+{"message":"::1 - - [04/Feb/2020:01:53:26 +0000] \"POST / HTTP/1.1\" 200 460 \"http://localhost:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36\"\n","level":"info","service":"express-server"}
+{"message":"Db connected successfully","level":"info","service":"express-server"}
+{"message":"🚀 Server listening on port  5000","level":"info","service":"express-server"}
+{"message":"/","level":"info","service":"express-server"}
+{"message":"::1 - - [04/Feb/2020:01:53:46 +0000] \"OPTIONS / HTTP/1.1\" 204 0 \"http://localhost:3000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36\"\n","level":"info","service":"express-server"}
+{"message":"/","level":"info","service":"express-server"}
+{"message":"::1 - - [04/Feb/2020:01:53:47 +0000] \"POST / HTTP/1.1\" 200 460 \"http://localhost:3000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36\"\n","level":"info","service":"express-server"}
