@@ -9,7 +9,7 @@ mongoose.Promise = global.Promise;
 // Connect to Mongoose and set connection variable
 if (!process.env.MONGODB_URI) {
   logger.error(
-    'Please set a mongodb connection string eMONGODB_URI in .env file',
+    'Please set a mongodb connection string MONGODB_URI in .env file',
   );
   process.exit(1);
 }

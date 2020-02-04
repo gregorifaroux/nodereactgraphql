@@ -18,14 +18,31 @@
 
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
 
+- Download and install
+
 ```sh
 $ git clone https://github.com/gregorifaroux/nodereactgraphql.git # or clone your own fork
 $ cd nodereactgraphql
 $ npm install
+```
+
+- Setup database connection by creating a `.env` file in the server directory
+
+```sh
+$ cp server/.env.sample server/.env
+$ vi server/.env
+Set the MONGODB_URI to your local mongodb or a mlab instance.
+```
+
+- Run the server and web client
+
+```sh
 $ npm start
 ```
 
 Your app should now be running on [localhost:3000](http://localhost:3000/).
+
+- If you get a network error 'failed to fetch', please look at the server log; more likely the server could not connect to the mongodb instance.
 
 ## Deploying to Heroku
 

@@ -5,6 +5,8 @@ import PropTypes from "prop-types";
 import { useQuery } from "@apollo/react-hooks";
 import { gql } from "apollo-boost";
 
+// UI
+import { Alert } from "reactstrap";
 // Components
 import EmployeeListTable from "./EmployeeListTable";
 
@@ -74,7 +76,9 @@ const EmployeeList = props => {
     setPageLocation({ page, sizePerPage, filter, sort });
   };
 
-  if (error) return <p>Error : {error.message}</p>;
+  console.log(JSON.stringify(error));
+
+  if (error) return <Alert color="danger">Error : {error.message}</Alert>;
   const { sizePerPage, page } = pageLocation;
 
   return (
